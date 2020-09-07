@@ -42,6 +42,18 @@ svg {
   justify-content: space-around;
 }
 
+.home__headerAvatar {
+  cursor: pointer;
+}
+
+.home__headerAvatar a {
+  text-decoration: none;
+}
+
+#person:hover {
+  color: gray;
+}
+
 #person {
   color: darkgray;
   font-size: 38px;
