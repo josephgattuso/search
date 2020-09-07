@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search</title>
+    <title>Advanced Search</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -15,11 +15,11 @@
       <header class="home__header">
         <div class="home__headerLeft">
           <i class="material-icons">apps</i>
-          <a href="/index.html">Search</a>
+          <a href="/pages/advanced.html">Advanced Search</a>
         </div>
         <div class="home__headerRight">
           <a href="/pages/images.html">Images</a>
-          <a href="/pages/advanced.html"> Advanced Search</a>
+          <a href="/index.html">Search</a>
 
           <div class="home__header avatar">
             <i class="material-icons" id="person">account_circle</i>
@@ -29,11 +29,16 @@
       <main class="home__body">
         <center>
           <!-- Responsive Logo -->
-          <img
-            src="/img/logo/google-2x.png"
-            srcset="/img/logo/google-1x.png 1x, /img/logo/google-2x.png 2x"
-            alt="Google"
-          />
+          <div style="width: 272px" title="Google Images">
+            <img
+              src="/img/logo/google-2x.png"
+              srcset="/img/logo/google-1x.png 1x, /img/logo/google-2x.png 2x"
+              alt="Google"
+            />
+            <div class="logo-subtext" style="color: #4285f4" align="right">
+              <span>advanced</span>
+            </div>
+          </div>
           <!-- Search Form -->
           <form class="search" action="https://google.com/search">
             <div class="search__input">
